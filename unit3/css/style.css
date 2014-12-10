@@ -1,6 +1,6 @@
 body {
-	background: url("images/background.png");
-	background-image: url("images/background.png");
+	background: url("https://lazarofa.github.io/unit3/images/background.png");
+	background-image: url("https://lazarofa.github.io/unit3/images/background.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: auto;
@@ -12,7 +12,7 @@ body {
 }
 
 #color_bar {
-	background: url("images/stripes.png");
+	background: url("https://lazarofa.github.io/unit3/images/stripes.png");
 	background-repeat: repeat-x;
 }
 
