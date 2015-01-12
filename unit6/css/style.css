@@ -1,0 +1,281 @@
+body {
+	margin: 0 auto;
+	font-family: 'Merriweather', sans-serif;
+}
+
+h1 {
+	font-family: 'Amatic SC', serif;
+}
+
+p {
+	font-family: 'Merriweather', sans-serif;
+	font-size: 15px;
+	margin-bottom: 15px;
+	line-height: 20px;
+}
+
+header {
+	position: relative;
+	margin: auto;
+	padding: 20px;
+	width: 960px;
+	text-align: center;
+}
+
+.logo {
+	float: left;
+	font-size: 50px;
+	margin-right: 100px;
+}
+
+.logo-link {
+	text-decoration: none;
+	color: black;
+}
+
+nav a {
+	margin-top: 10px;
+	margin-right: 50px;
+	font-weight: 700;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	font-family: 'Amatic SC', serif;
+	font-size: 25px;
+}
+
+nav a:hover {
+	color: brown;
+}
+
+.project-link {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 7px;
+}
+
+.project-link:hover {
+	background-color: black;
+	color: white;
+}
+
+@media screen and (max-width: 920px) {
+	header {
+		width: 620px;
+	}
+
+	.logo {
+		float: none;
+		margin-left: 0px;
+		display: block;
+		margin-right: 0px;
+	}
+
+	nav {
+		display: block;
+		width: 100%;
+	}
+	
+	nav a {
+		margin-right: 40px;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	header {
+		width: 320px;
+		padding: 10px;
+	}
+
+	.logo {
+		float: none;
+		display: block;
+	}
+
+	nav {
+		display: block;
+		width: 100%;
+	}
+	
+	nav a {
+		margin-right: 30px;
+	}
+}
+
+#hero {
+	background-image: url("https://lazarofa.github.io/unit6/images/hero.png");
+	border-top: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	height: 630px;
+}
+
+#hero-content {
+	margin: 0 auto;
+	padding-top: 140px;
+	width: 960px;
+}
+
+.hero-text {
+	font-family: 'Merriweather', sans-serif;
+	font-style: italic;
+	line-height: 60px;
+	font-size: 50px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.hero-subtext {
+	font-family: 'Merriweather', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.button {
+	text-align: center;
+}
+
+button {
+	font-family: 'Amatic SC', serif;
+	font-size: 30px;
+	padding: 12px;
+    background: #ffffff;
+    border-radius: 10px;
+	border: 0;
+	margin: 0 auto;
+}
+
+button:hover {
+	font-family: 'Amatic SC', serif;
+	font-size: 30px;
+	padding: 12px;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+	border: 0;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) {
+	#hero-content {
+		padding-top: 140px;
+		width: 500px;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	#hero-content {
+		padding-top: 80px;
+		width: 320px;
+	}
+}
+
+.column {
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	padding-bottom: 20%;
+	border: 0;
+}
+
+#column1 {
+	background-image: url("https://lazarofa.github.io/unit6/images/our-services.jpg");
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#column2 {
+	background-image: url("https://lazarofa.github.io/unit6/images/about-us.jpg");
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#column3 {
+	background-image: url("https://lazarofa.github.io/unit6/images/work-with-us.jpg");
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#column4 {
+	background-image: url("https://lazarofa.github.io/unit6/images/contact-us.jpg");
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.column-cta {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	font-weight: 900;
+	line-height: 25px;
+}
+
+@media screen and (max-width: 500px) {
+	.column { 
+		float: none;
+		width: auto;
+	}
+	
+	.column-cta {
+		font-size: 20px;
+	}
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	position: relative;
+}
+
+.footer-menu {
+	float: left;
+	font-family: 'Amatic SC', serif;
+	font-size: 35px;
+}
+
+.footer-social {
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.footer-img-one {
+	margin-left: 700px;
+}
+
+.footer-img {
+	margin-left: 20px;
+}
+
+.footer-copyright {
+	font-size: 10px;
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+}
